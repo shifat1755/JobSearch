@@ -9,7 +9,6 @@ import { ScrollView } from "react-native";
 
 
 const tabs = ['About', 'Qualifications', 'Responsibilities'];
-
 const JobDetails = (props) => {
     const params = useGlobalSearchParams();
     const router = useRouter();
